@@ -10,7 +10,11 @@ import UIKit
 class WordsTableTableViewController: UITableViewController {
     
     var vocabWords: [VocabularyWord] = [
-        VocabularyWord(word: "Data Science", definition: "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data,and apply knowledge and actionable insights from data across a broad range of application domains.")
+        VocabularyWord(word: "Data Science", definition: "Data science is an interdisciplinary field that uses scientific methods, processes, algorithms and systems to extract knowledge and insights from noisy, structured and unstructured data,and apply knowledge and actionable insights from data across a broad range of application domains."),
+        VocabularyWord(word: "Numpy", definition: "It is a Python library that provides a multidimensional array object, various derived objects (such as masked arrays and matrices), and an assortment of routines for fast operations on arrays, including mathematical, logical, shape manipulation, sorting, selecting, I/O, discrete Fourier transforms, basic linear algebra, basic statistical operations, random simulation and much more."),
+        VocabularyWord(word: "Pandas", definition: "Pandas is an open-source Python Library providing high-performance data manipulation and analysis tool using its powerful data structures. The name Pandas is derived from the word Panel Data – an Econometrics from Multidimensional data."),
+        VocabularyWord(word: "Matplotlib", definition: "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python."),
+        VocabularyWord(word: "Seaborn", definition: "Seaborn is a Python data visualization library based on matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.")
     ]
 
     override func viewDidLoad() {
