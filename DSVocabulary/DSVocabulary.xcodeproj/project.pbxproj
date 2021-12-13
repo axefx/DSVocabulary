@@ -14,6 +14,7 @@
 		770F4D002766DCDC00AE8BB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 770F4CFE2766DCDC00AE8BB9 /* LaunchScreen.storyboard */; };
 		770F4D082766DF7900AE8BB9 /* WordsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F4D072766DF7900AE8BB9 /* WordsTableTableViewController.swift */; };
 		770F4D0A2766DFF900AE8BB9 /* DefinitionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F4D092766DFF900AE8BB9 /* DefinitionViewController.swift */; };
+		770F4D0C2766F77300AE8BB9 /* VocabularyWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770F4D0B2766F77300AE8BB9 /* VocabularyWord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		770F4D012766DCDC00AE8BB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		770F4D072766DF7900AE8BB9 /* WordsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsTableTableViewController.swift; sourceTree = "<group>"; };
 		770F4D092766DFF900AE8BB9 /* DefinitionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefinitionViewController.swift; sourceTree = "<group>"; };
+		770F4D0B2766F77300AE8BB9 /* VocabularyWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocabularyWord.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +68,7 @@
 				770F4D012766DCDC00AE8BB9 /* Info.plist */,
 				770F4D072766DF7900AE8BB9 /* WordsTableTableViewController.swift */,
 				770F4D092766DFF900AE8BB9 /* DefinitionViewController.swift */,
+				770F4D0B2766F77300AE8BB9 /* VocabularyWord.swift */,
 			);
 			path = DSVocabulary;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			files = (
 				770F4D082766DF7900AE8BB9 /* WordsTableTableViewController.swift in Sources */,
 				770F4CF42766DCDB00AE8BB9 /* AppDelegate.swift in Sources */,
+				770F4D0C2766F77300AE8BB9 /* VocabularyWord.swift in Sources */,
 				770F4CF62766DCDB00AE8BB9 /* SceneDelegate.swift in Sources */,
 				770F4D0A2766DFF900AE8BB9 /* DefinitionViewController.swift in Sources */,
 			);
